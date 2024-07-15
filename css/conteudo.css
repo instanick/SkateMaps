@@ -13,6 +13,7 @@ body {
     height: 100%;
     width: 100%;
     flex-direction: column;
+    color: white;
 }
 
 h1 {
@@ -76,53 +77,45 @@ input:hover {
 
 /* aqui começa o conteudo */
 
+
+/* aqui começa o conteudo */
+
 main {
-    height: 100%;
+    padding: 50px;
     width: 100%;
-    padding: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
 }
 
 .container {
-    width: 100%;
-    height: 580px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
-    gap: 200px;
+    gap: 120px;
 }
 
-.cxtext {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.conteudo {
     flex-direction: column;
-    width: 400px;
-    height: 500px;
-    background-color: #101010;
-    color: white;
-    border-radius: 16px;
-    gap: 30px;
-}
-
-.texto {
-    width: 350px;
-    height: 272px;
-    font-size: 25px;
-}
-
-.cxtext a {
-    font-size: 50px;
-    text-decoration: none;
-    color: white;
     display: flex;
-    width: 350px;
-    height: 100px;
-    border-radius: 16px;
-    justify-content: center;
     align-items: center;
-    background-color: #ED5151;
+    justify-content: center;
+    width: 496px;
+    height: 390px;
+    background-color: #494949;
+    border-radius: 16px;
 }
 
-.cxtext a:hover {
-    background-color: #a61717;
+.conteudo:hover {
+    box-shadow: white 0px 0px 10px;
+}
+
+.conteudo img {
+    margin-bottom: 24px;
+}
+
+h2 {
+    margin-bottom: 35px;
 }
